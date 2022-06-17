@@ -1,0 +1,57 @@
+{
+  "name": "wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start --host 127.0.0.1",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ethersproject/hdnode": "^5.6.2",
+    "@ethersproject/shims": "^5.6.0",
+    "@ethersproject/wallet": "^5.6.2",
+    "@gorhom/bottom-sheet": "^4",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-camera": "^4.2.1",
+    "react-native-document-picker": "^8.1.1",
+    "react-native-file-access": "^2.4.2",
+    "react-native-file-utils": "^0.3.2",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.4.2",
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-keychain": "^8.0.0",
+    "react-native-permissions": "^3.3.1",
+    "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-reanimated": "^2.8.0",
+    "react-native-safe-area-context": "^4.2.5",
+    "react-native-screens": "^3.13.1",
+    "react-native-vector-icons": "^9.1.0",
+    "rn-fetch-blob": "joltup/rn-fetch-blob",
+    "should-render": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/runtime": "^7.18.3",
+    "@react-native-community/eslint-config": "^3.0.2",
+    "@types/react-native": "^0.67.7",
+    "babel-jest": "^28.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "metro-react-native-babel-preset": "^0.71.0",
+    "prettier": "^2.6.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
